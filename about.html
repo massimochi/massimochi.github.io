@@ -1,0 +1,111 @@
+---
+layout: default
+title: Assob.it
+sub-title: Chi siamo
+bgimg: img/about-bg.jpg
+---
+
+<a  data-toggle="collapse" href="#collapseZero" style="font-style:normal;">
+  <strong>AssoB.IT</strong> è un'associazione senza scopo di lucro nata con l'idea di promuovere la crescita e la diffusione delle tecnologie blockchain.
+</a>
+
+<div id="collapseZero" class="collapse">
+  e di massimizzare sinergia, condivisione e collaborazione tra le aziende ed i professionisti che si muovono in questo campo di grande innovazione.
+</div>
+</p>
+<p>Si pone l'obiettivo di:</p>
+<div id="accordion">
+  <ol>
+    <li>
+       <a  data-toggle="collapse" href="#collapseOne" data-parent="#accordion"><strong>Contrastare la disinformazione</strong>
+      </a>
+      <div id="collapseOne" class="panel-collapse collapse">
+        <p>
+          che, come nel caso di qualunque altra innovazione tecnologica di grande impatto, si è creata anche intorno alla “rivoluzione blockchain”, con organizzazione di eventi divulgativi e produzione di materiali dedicati agli sviluppi tecnologici, alle normative legali vigenti e allo studio dei rischi e dei vantaggi che si presentano a chi opera in questo nuovo settore. Fornire una certificazione sulle attività e i progetti dotati di crismi di serietà e professionalità, in un ambito fisiologicamente ancora molto esposto a frodi, imbrogli ed iniziative avventurose o poco trasparenti.
+        </p>
+      </div>
+    </li>
+    <li><a  data-toggle="collapse" href="#collapseTwo" data-parent="#accordion"><strong>Fornire assistenza</strong>
+      </a>
+      <p id="collapseTwo" class="collapse" >
+        sia legale che di business, a chiunque sia interessato a iniziare a utilizzare tecnologie blockchain per qualunque finalità: dai sistemi di pagamento, alla decentralizzazione dei contratti, agli investimenti in commodity sintetica, alle applicazioni legate a privacy e sicurezza informatica. Mettere in contatto chiunque sia interessato a sviluppare soluzioni legate a questo tipo di tecnologia, generando sinergie e coordinando gli sforzi di advocacy, di lobbying e di rappresentanza degli interessi e delle esigenze del settore.
+      </p>
+    </li>
+    <li><a  data-toggle="collapse"  href="#collapseThree" data-parent="#accordion"><strong>Sviluppare una piattaforma interna</strong>
+
+      </a>
+      <p id="collapseThree" class="collapse" >
+        che sfrutti le potenzialità delle tecnologie blockchain per automatizzare in modo decentralizzato, trasparente e sicuro le dinamiche associative e di governance della stessa AssoB.IT, arrivando a costituire addirittura un primo, piccolo esempio di “DAO” (“decentralized autonomous organization”).-->
+      </p>
+    </li>
+    <li><a  data-toggle="collapse"  href="#collapseFour" data-parent="#accordion"><strong>Aprire e mantenere un colloquio con le istituzioni</strong>
+      </a>
+      <p id="collapseFour" class="collapse" >
+      Questo scopo importante dell'associazione è spesso dimenticato nei documenti ufficiali. In realtà molti sono stati gli incontri di alcuni dei nostri membri più illustri con autorità fiscali, finanziarie ed economiche.
+      </p>
+    </li>
+  </ol>
+</div>
+</div>
+</div>
+</div>
+</p>
+<p>
+  <div class="row">
+    <div class="col-lg-2 col-lg-offset-3 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://tinkl.it" >
+        <img src="https://tinkl.it/assets/logo_footer-60993dff7fee76ca2aec386784e22b1f.png" height="80px" width="200px"  style="cursor: pointer;"/>
+      </a>
+    </div>
+    <div class="col-lg-2 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://greenaddress.it" >
+        <img src="https://greenaddress.it/static/img/logos/logo-greenaddress.png" height="60px" width="60px"  style="cursor: pointer;"/>
+      </a>
+    </div>
+    <div class="col-lg-2 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://www.oraclize.it" >
+        <img src="http://www.oraclize.it/assets/images/oraclize_logo.png" height="60px" width="60px"  style="cursor: pointer;"/>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-2 col-lg-offset-3 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://holytransaction.com" >
+        <img src="https://holytransaction.com/images/logo.png"  style="cursor: pointer;"/>
+      </a>
+    </div>
+    <div class="col-lg-2 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://www.therocktrading.com" >
+        <img src="https://www.therocktrading.com/assets/trt_logo_l-23fa299dbb86f753fc42c58ad7db6b0b.png" style="background-color: #000000; cursor: pointer;"  />
+      </a>
+    </div>
+    <div class="col-lg-2 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://www.helperbit.com/" >
+        <img src="https://pbs.twimg.com/profile_images/582303609255264256/2gUhmRwK_400x400.jpg" height="60px" width="60px"  style="cursor: pointer;"/>
+      </a>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-lg-2 col-lg-offset-3 col-md-4 text-center" style="margin-top:20px">
+      <a href="http://eternitywall.it" >
+          <img src="http://eternitywall.it/img/eternity_logo_final.svg" height="60px" width="60px" style="cursor: pointer;"/>
+      </a>
+    </div>
+  </div>
+</p>
+  <div class="row container">
+    <!-- i dati sono in _data/members.yml -->
+    <div class="col-lg-10 col-lg-offset-6 col-md-4" style="margin-top:20px">
+      <h3>People</h3>
+      <ul>
+       {% for member in site.data.members %}
+          <li>
+            <img src="{{ member.immagine }}" height="60px" width="60px"/>
+             <div class="credit">{{ member.nome }}</div>
+            <div class="credit">{{ member.ruolo }}  </div>
+            <div>{{ member.descrizione }}  </div>
+          </li>
+        {% endfor %}
+      </ul>
